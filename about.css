@@ -36,6 +36,7 @@ section {
     left: 20%;
     transform: translate(-20%);
     position: absolute;
+    color:rgb(0, 0, 0);
 }
 .intro-text h1 {
     font-size: 30px;
@@ -44,6 +45,9 @@ section {
 .intro-text h3 {
     font-size: 22px;
     
+}
+h3 span { 
+    background-color: rgb(249, 252, 249); 
 }
 .portrait img {
     border-radius: 1px;

@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  
     
     
+}
+html { 
+    overflow-y: hidden; 
 }
 
 
@@ -15,6 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0);
+    
 }
 /* Adding background color to nav bar*/
 /* To style the links inside the nav bar*/
@@ -25,11 +29,12 @@ body {
     justify-content: space-between;
     background-color: black;
     overflow: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav 
 a {
-    color: rgb(63, 62, 62);
+    color: rgb(53, 204, 16);
     /*text-align: center;*/
     padding: 14px 16px; 
     text-decoration: none;
@@ -136,7 +141,10 @@ img {
     font-size: 90px;
     margin-left: 190px;
     margin-top: 3%;
+    font-family: 'Russo One', sans-serif;
   
 
 }
 
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/cursors/cur-11/cur1089.cur), auto !important;} /* End https://www.cursors-4u.com */
